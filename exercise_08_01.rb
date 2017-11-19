@@ -22,5 +22,6 @@ while System.update do
   camera.draw(Palette::Orange)
   camera.transform do
     draw_lines(40, 240, 600, 240)
+    # draw_lines(320, 40, 320, 440)
   end
 end
