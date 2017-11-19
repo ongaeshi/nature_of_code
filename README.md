@@ -2,6 +2,6 @@
 
 Implementation of the Nature of Code by SketchWatltz.
 
-Nature of Code: https://github.com/shiffman/The-Nature-of-Code-Examples
-SketchWaltz: https://github.com/ongaeshi/sketchwaltz/
+- Nature of Code: https://github.com/shiffman/The-Nature-of-Code-Examples
+- SketchWaltz: https://github.com/ongaeshi/sketchwaltz/
 
