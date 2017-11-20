@@ -89,11 +89,20 @@ Graphics.set_background(Palette::White)
 
 lines = []
 lines << KochLine.new(Vec2.new(0, 200), Vec2.new(Window.width, 200))
-
+lines = generate(lines)
+lines = generate(lines)
+lines = generate(lines)
+lines = generate(lines)
 lines = generate(lines)
 
+camera = Camera2D.new
+
 while System.update do
-  lines.each do |e|
-    e.draw
+  camera.update
+  camera.transform do
+    lines.each do |e|
+      e.draw
+    end
   end
+  camera.draw(Palette::Orange)
 end
